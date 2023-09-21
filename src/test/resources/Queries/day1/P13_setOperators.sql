@@ -37,10 +37,5 @@ select  * from  DEVELOPERS2
 select  * from  TESTERS2 ;
 
 select  NAMES from  DEVELOPERS2
-    intersect
+intersect
 select  NAMES from  TESTERS2 ;
-
-
-
-
-
